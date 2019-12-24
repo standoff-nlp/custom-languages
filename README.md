@@ -29,3 +29,6 @@ doc = nlp('арх ау ах аха ај бар би')
 In [6]: [token for token in doc if token.is_stop]  
 Out[6]: []
 ```
+* Tried symbolic link from custom_languages/lang and spacy/lang
+`ln -s /home/ajanco/projects/custom_languages/lang/klingon/  /home/ajanco/anaconda3/envs/spacy22/lib/python3.7/site-packages/spacy/lang`
+Model loads, but does not find the stop words.
