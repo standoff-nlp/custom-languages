@@ -15,6 +15,7 @@ from spacy.util import update_exc, add_lookups
 class KlingonDefaults(Language.Defaults):
     lex_attr_getters = dict(Language.Defaults.lex_attr_getters)
     lex_attr_getters[LANG] = lambda text: "klingon"
+    stop_words = STOP_WORDS
     '''lex_attr_getters = dict(Language.Defaults.lex_attr_getters)
     lex_attr_getters.update(LEX_ATTRS)
     lex_attr_getters[LANG] = lambda text: "custom_sr"

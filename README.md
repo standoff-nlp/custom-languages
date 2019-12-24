@@ -2,7 +2,7 @@
 
 An experiment to see if it is possible to create a library of custom language objects that could be developed and imported independently from spaCy. 
 
-12/24: currently not working 
+12/24: currently working 
 ```python 
 from lang.klingon import Klingon
 nlp = Klingon()  
@@ -32,3 +32,5 @@ Out[6]: []
 * Tried symbolic link from custom_languages/lang and spacy/lang
 `ln -s /home/ajanco/projects/custom_languages/lang/klingon/  /home/ajanco/anaconda3/envs/spacy22/lib/python3.7/site-packages/spacy/lang`
 Model loads, but does not find the stop words.
+
+* Thank you David for suggestion on symbolic link.  Also added STOP_WORDS to KlingonDefaults and it's working properly. We're back in business!
