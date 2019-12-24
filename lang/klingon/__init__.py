@@ -1,5 +1,5 @@
 # new language from scratch
-from lang.klingon.stop_words import STOP_WORDS
+from spacy.lang.klingon.stop_words import STOP_WORDS
 #from klingon.tokenizer_exceptions import TOKENIZER_EXCEPTIONS
 #from klingon.norm_exceptions import NORM_EXCEPTIONS
 #from klingon.lex_attrs import LEX_ATTRS
