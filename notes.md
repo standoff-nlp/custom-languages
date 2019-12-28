@@ -2,16 +2,17 @@
 To look at the existing language objects, I crawled the spacy/lang directory and gathered all of the imported files. 
 
 Here is the full range of data imported for language objects:
-STOP_WORDS,
-TOKENIZER_SUFFIXES, 
-TOKENIZER_PREFIXES, 
-TOKENIZER_INFIXES,
-TOKENIZER_EXCEPTIONS,
-LEX_ATTRS,
-NORM_EXCEPTIONS,
-MORPH_RULES,
-SYNTAX_ITERATORS,
-TAG_MAP
+STOP_WORDS,  
+TOKENIZER_SUFFIXES,   
+TOKENIZER_PREFIXES,   
+TOKENIZER_INFIXES,  
+TOKENIZER_EXCEPTIONS,  
+LEX_ATTRS,  
+NORM_EXCEPTIONS,  
+MORPH_RULES,  
+SYNTAX_ITERATORS,  
+TAG_MAP  
+
 
 For reference, here is my code:
 ```python
