@@ -1,6 +1,9 @@
 12/28 ~ Now that we are able to create new language objects, I would like greater clarity on what files are needed.
 To look at the existing language objects, I crawled the spacy/lang directory and gathered all of the imported files. 
 
+### I am adding a model for <lang name>, what files do I need to create? 
+### What information do I need to create those files? 
+	
 Here is the full range of data imported for language objects:  
 - [NORM_EXCEPTIONS](https://github.com/explosion/spaCy/blob/master/spacy/lang/sr/norm_exceptions.py) (de,hu,lb,uk,tr,fr,ru,ca,nl,hr,el,sr,fa,nb,es,sv,it,pl,lt,ro,xx,id,th,da,fi,vi,en)    
 - [STOP_WORDS](https://github.com/explosion/spaCy/blob/master/spacy/lang/sr/stop_words.py) (lb,uk,pt,tr,fr,ca,ga,bn,nb,pl,it,tl,ro,da,fi,en)
